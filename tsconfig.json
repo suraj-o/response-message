@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "rootDir": "./src",
+      "outDir": "./dist",
+      "declaration": true,
+      "declarationDir": "./dist/types",
+      "module": "ESNext",
+      "target": "ES2017",
+      "esModuleInterop": true,
+      "moduleResolution": "Node",
+      "strict": true
+    },
+    "include": ["src"]
+  }
+  

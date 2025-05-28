@@ -1,0 +1,19 @@
+{
+  "name": "response-messages",
+  "version": "1.0.1",
+  "description": "Standardized HTTP response message utility for Node.js",
+  "main": "dist/index.js",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "http",
+    "response",
+    "express",
+    "api",
+    "node"
+  ],
+  "author": "Suraj",
+  "license": "MIT"
+}
