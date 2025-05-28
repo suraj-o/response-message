@@ -1,4 +1,7 @@
-# @suraj/response-messages
+# response-messages
+
+[![npm version](https://badge.fury.io/js/@suraj%2Fresponse-messages.svg)](https://badge.fury.io/js/@suraj%2Fresponse-messages)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A simple utility library to generate standardized HTTP response messages for Node.js applications and microservices.
 
@@ -16,13 +19,13 @@ A simple utility library to generate standardized HTTP response messages for Nod
 ## Installation
 
 ```bash
-npm install @suraj/response-messages
+npm install response-messages
 ```
 
 ## Usage
 
 ```javascript
-const responseMessages = require("@suraj/response-messages");
+import { ResponseMessages } from "response-messages";
 
 // Success response with data
 const successResponse = responseMessages.success("Operation successful", { id: 123, name: "John" });
